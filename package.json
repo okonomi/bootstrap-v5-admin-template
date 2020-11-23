@@ -1,0 +1,8 @@
+{
+  "name": "bootstrap-v5-admin-template",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
