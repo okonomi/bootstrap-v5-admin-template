@@ -8,8 +8,8 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <nav class="col-2 bg-dark gx-0 min-vh-100 text-light">
-        <header class="p-3 text-center">
+      <nav class="col-2 bg-dark gx-0 min-vh-100 text-light" id="sidebar">
+        <header class="p-3">
           <a href="#" class="text-decoration-none text-light fs-4">管理画面</a>
         </header>
         <ul class="nav flex-column">
@@ -48,8 +48,21 @@
           </li>
         </ul>
       </nav>
-      <main class="col">
-        main
+      <main class="col gx-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                  ユーザー名
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> ログアウト</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </main>
     </div>
   </div>
