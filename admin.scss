@@ -1,1 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
+
+.nav-link {
+  color: $light;
+  &:hover {
+    color: $light;
+    background: $gray-800;
+  }
+}
