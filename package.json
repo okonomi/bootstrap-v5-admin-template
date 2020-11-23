@@ -2,6 +2,9 @@
   "name": "bootstrap-v5-admin-template",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel --host 0.0.0.0 index.html"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "sass": "^1.29.0"
