@@ -3,7 +3,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "parcel --host 0.0.0.0 src/*.html"
+    "dev:index": "parcel --host 0.0.0.0 src/index.html",
+    "dev:login": "parcel --host 0.0.0.0 src/login.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
